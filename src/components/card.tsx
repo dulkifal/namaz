@@ -29,7 +29,7 @@ const Card = () => {
   return (
     <div className="mt-8 p-8 border-0 rounded-xl shadow-lg bg-gradient-to-br from-white to-gray-50 w-full max-w-lg hover:shadow-xl transition-shadow duration-300">
       <h2 className="text-3xl font-bold mb-8 text-gray-800 border-b pb-4">Namaz Times</h2>
-      <ul className="space-y-6 text-gray-700">
+      <ul className="grid grid-cols-2 sm:grid-cols-2">
         {prayerTimes.map((prayer) => (
           <PrayerTimeItem
             key={prayer.id}
