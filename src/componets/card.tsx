@@ -1,5 +1,3 @@
-
-
 const prayerTimes = [
     { id: 1, name: 'Fajr', time: '5:20 AM', color: 'bg-blue-500' },
     { id: 2, name: 'Dhuhr', time: '12:30 PM', color: 'bg-yellow-500 ' },
